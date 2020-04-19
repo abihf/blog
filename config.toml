@@ -1,0 +1,22 @@
+baseURL = "http://blog.hafs.in/"
+title = "The Preposterous"
+languageCode = "en-us"
+copyright = "&copy; 2020, Abi Hafshin"
+
+theme = "devise"
+
+[params]
+  header_title = "The Preposterous"                 # Your header title
+  header_subtitle = "Existence has no meaning, so what?" # Your header subtitle
+  home_image = "/me.svg"          # Path to header image starting from the static directory
+  recent_posts = 5                           # Max amount of recent posts to show
+  mainSections = ["posts", "post", "blog"]   # Main sections to include in recent posts
+  [[params.social]]
+    fa_icon = "fab fa-twitter fa-1x"
+    href = "https://twitter.com/hornietzsche"
+  [[params.social]]
+    fa_icon = "fab fa-instagram fa-1x"
+    href = "https://instagram.com/hafs.in"
+  [[params.social]]
+    fa_icon = "fab fa-github fa-1x"          # Font Awesome icon class
+    href = "http://github.com/abihf"      # Link to associate with icon (http://, https://, mailto:)
